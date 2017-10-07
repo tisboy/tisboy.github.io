@@ -704,7 +704,7 @@
                document.getElementById("gitment-display-button").style.display = "none";
                document.getElementById("gitment-container").style.display = "block";
                var gitment = new Gitment({
-                   id: window.location.pathname,
+                   id: document.location.href,
                    owner: 'tisboy',
                    repo: 'tisboygitment',
                    oauth: {
