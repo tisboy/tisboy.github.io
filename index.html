@@ -423,7 +423,6 @@
 
 
           
-
         </div>
         
           
@@ -652,6 +651,32 @@
 
 
 
+
+
+
+   
+   
+   
+   
+   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+   
+       <script type="text/javascript">
+           function ShowGitment(){
+               document.getElementById("gitment-display-button").style.display = "none";
+               document.getElementById("gitment-container").style.display = "block";
+               var gitment = new Gitment({
+                   id: document.location.href,
+                   owner: 'tisboy',
+                   repo: 'tisboygitment',
+                   oauth: {
+                       client_id: 'c6ccef5ccf8d8a5b4cfa',
+                       client_secret: '9bfa2fce73c6ea6f4c8837cbccaea25244807481',
+                   }});
+               gitment.render('gitment-container');
+           }
+       </script>
+   
 
 
 
