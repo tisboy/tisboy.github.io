@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tisboy.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-10-20T14:17:59.142Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tisboy.github.io/tags/index.html</loc>
     
     <lastmod>2017-10-09T16:20:21.364Z</lastmod>
