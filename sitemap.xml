@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tisboy.github.io/categories/index.html</loc>
+    <loc>https://tisboy.github.io/2017/10/21/rocketmq-1/</loc>
     
-    <lastmod>2017-10-20T14:17:59.142Z</lastmod>
+    <lastmod>2017-10-20T17:17:50.971Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://tisboy.github.io/2017/09/08/hello-world/</loc>
+    
+    <lastmod>2017-10-20T17:12:30.905Z</lastmod>
     
   </url>
   
@@ -19,13 +26,6 @@
     <loc>https://tisboy.github.io/about/index.html</loc>
     
     <lastmod>2017-10-09T16:20:21.348Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://tisboy.github.io/2017/09/08/hello-world/</loc>
-    
-    <lastmod>2017-09-08T15:48:57.102Z</lastmod>
     
   </url>
   

@@ -79,7 +79,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="rocketmq,rocketmq安装,rocketmq部署," />
 
 
 
@@ -97,13 +97,24 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tisboy">
-<meta property="og:url" content="https://tisboy.github.io/index.html">
+<meta name="description" content="参考文档：http://rocketmq.apache.org/docs/quick-start/ Clone &amp;amp; Build1234&amp;gt; git clone -b develop https://github.com/apache/rocketmq.git&amp;gt; cd rocketmq&amp;gt; mvn -Prelease-all -DskipTests clean install">
+<meta name="keywords" content="rocketmq,rocketmq安装,rocketmq部署">
+<meta property="og:type" content="article">
+<meta property="og:title" content="rocketmq_1">
+<meta property="og:url" content="https://tisboy.github.io/2017/10/21/rocketmq-1/index.html">
 <meta property="og:site_name" content="tisboy">
+<meta property="og:description" content="参考文档：http://rocketmq.apache.org/docs/quick-start/ Clone &amp;amp; Build1234&amp;gt; git clone -b develop https://github.com/apache/rocketmq.git&amp;gt; cd rocketmq&amp;gt; mvn -Prelease-all -DskipTests clean install">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://tisboy.github.io/2017/10/21/rocketmq-1/images/1508518474316.jpg">
+<meta property="og:image" content="https://tisboy.github.io/2017/10/21/rocketmq-1/images/1508518732287.jpg">
+<meta property="og:image" content="https://tisboy.github.io/2017/10/21/rocketmq-1/images/1508518926627.jpg">
+<meta property="og:image" content="https://tisboy.github.io/2017/10/21/rocketmq-1/images/1508519399611.jpg">
+<meta property="og:image" content="https://tisboy.github.io/2017/10/21/rocketmq-1/images/1508519440322.jpg">
+<meta property="og:updated_time" content="2017-10-20T17:17:50.971Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tisboy">
+<meta name="twitter:title" content="rocketmq_1">
+<meta name="twitter:description" content="参考文档：http://rocketmq.apache.org/docs/quick-start/ Clone &amp;amp; Build1234&amp;gt; git clone -b develop https://github.com/apache/rocketmq.git&amp;gt; cd rocketmq&amp;gt; mvn -Prelease-all -DskipTests clean install">
+<meta name="twitter:image" content="https://tisboy.github.io/2017/10/21/rocketmq-1/images/1508518474316.jpg">
 
 
 
@@ -133,13 +144,13 @@
 
 
 
-  <link rel="canonical" href="https://tisboy.github.io/"/>
+  <link rel="canonical" href="https://tisboy.github.io/2017/10/21/rocketmq-1/"/>
 
 
 
 
 
-  <title>tisboy</title>
+  <title>rocketmq_1 | tisboy</title>
   
 
 
@@ -158,8 +169,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -272,9 +282,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -304,9 +314,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/10/21/rocketmq-1/" itemprop="url">rocketmq_1</a></h1>
+          <h1 class="post-title" itemprop="name headline">rocketmq_1</h1>
         
 
         <div class="post-meta">
@@ -378,9 +386,7 @@
       
 
       
-        
-          
-            <p>参考文档：<a href="http://rocketmq.apache.org/docs/quick-start/" target="_blank" rel="external">http://rocketmq.apache.org/docs/quick-start/</a></p>
+        <p>参考文档：<a href="http://rocketmq.apache.org/docs/quick-start/" target="_blank" rel="external">http://rocketmq.apache.org/docs/quick-start/</a></p>
 <h1 id="Clone-amp-Build"><a href="#Clone-amp-Build" class="headerlink" title="Clone &amp; Build"></a>Clone &amp; Build</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt; git <span class="built_in">clone</span> -b develop https://github.com/apache/rocketmq.git</div><div class="line">&gt; <span class="built_in">cd</span> rocketmq</div><div class="line">&gt; mvn -Prelease-all -DskipTests clean install -U</div><div class="line">&gt; <span class="built_in">cd</span> distribution/target/apache-rocketmq</div></pre></td></tr></table></figure>
 <h1 id="import-idea"><a href="#import-idea" class="headerlink" title="import idea"></a>import idea</h1><p>目录结构如下：<br><img src="./images/1508518474316.jpg" alt="enter description here"></p>
 <h1 id="Start-Name-Server"><a href="#Start-Name-Server" class="headerlink" title="Start Name Server"></a>Start Name Server</h1><p> 设置环境变量：<br> ROCKETMQ_HOME=C:\dev\RocketMQ\rocketmq\distribution\target\apache-rocketmq<br> 如图所示：<br> <img src="./images/1508518732287.jpg" alt="enter description here"></p>
@@ -389,8 +395,6 @@
 <p> 运行结果图如下：<br> <img src="./images/1508519399611.jpg" alt="enter description here"></p>
 <p><img src="./images/1508519440322.jpg" alt="enter description here"></p>
 
-          
-        
       
     </div>
     
@@ -405,142 +409,40 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://tisboy.github.io/2017/09/08/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="tisboy">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="tisboy">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/08/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-08T23:22:03+08:00">
-                2017-09-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/rocketmq/" rel="tag"># rocketmq</a>
           
-            
+            <a href="/tags/rocketmq安装/" rel="tag"># rocketmq安装</a>
           
-
+            <a href="/tags/rocketmq部署/" rel="tag"># rocketmq部署</a>
           
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">肺结核</div></pre></td></tr></table></figure></h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span> 对方的</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/08/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -550,10 +452,11 @@
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -561,6 +464,15 @@
 
 
           
+  <div class="comments" id="comments">
+    
+       
+         <div onclick="ShowGitment()" id="gitment-display-button">显示 Gitment 评论</div>
+         <div id="gitment-container" style="display:none"></div>
+       
+  </div>
+
+
         </div>
         
           
@@ -580,8 +492,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -653,6 +574,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Clone-amp-Build"><span class="nav-number">1.</span> <span class="nav-text">Clone & Build</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#import-idea"><span class="nav-number">2.</span> <span class="nav-text">import idea</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Start-Name-Server"><span class="nav-number">3.</span> <span class="nav-text">Start Name Server</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Start-Broker"><span class="nav-number">4.</span> <span class="nav-text">Start Broker</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Test"><span class="nav-number">5.</span> <span class="nav-text">Test</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -773,6 +710,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
 
   
 
