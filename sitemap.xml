@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tisboy.github.io/categories/index.html</loc>
+    
+    <lastmod>2017-10-20T17:18:49.648Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://tisboy.github.io/2017/10/21/rocketmq-1/</loc>
     
     <lastmod>2017-10-20T17:17:50.971Z</lastmod>
